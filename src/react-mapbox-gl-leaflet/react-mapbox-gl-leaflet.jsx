@@ -4,7 +4,6 @@ import L from 'leaflet';
 import {} from 'mapbox-gl';
 import {} from 'mapbox-gl-leaflet';
 
-import PropTypes from 'prop-types';
 import { GridLayer, withLeaflet } from 'react-leaflet';
 
 class MapboxGlLayer extends GridLayer {
@@ -14,15 +13,6 @@ class MapboxGlLayer extends GridLayer {
     this._addLayer = this._addLayer.bind(this);
     this._removeLayer = this._removeLayer.bind(this);
   }
-
-  static propTypes = {
-    accessToken: PropTypes.string,
-    style: PropTypes.string.isRequired
-  };
-
-  static defaultProps = {
-    accessToken: 'your-access-token-if-using-mapbox-api'
-  };
 
   createLeafletElement(props) {
     const { map } = props.leaflet || this.context;
