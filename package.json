@@ -1,8 +1,7 @@
 {
-  "name": "nextjs-react-mapbox-gl-leaflet",
+  "name": "next-react-mapbox-gl-leaflet",
   "version": "1.0.1",
   "description": "React wrapper of mapbox-gl-leaflet for react-leaflet.",
-  "author": "MongoDB",
   "license": "MIT",
   "main": "lib/react-mapbox-gl-leaflet.js",
   "module": "src/react-mapbox-gl-leaflet/index.js",

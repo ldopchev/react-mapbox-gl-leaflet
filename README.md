@@ -13,7 +13,7 @@ React wrapper of [`mapbox-gl-leaflet`][url-mapbox-gl-leaflet] for [`react-leafle
 ## Installation
 
 ```bash
-npm install nextjs-react-mapbox-gl-leaflet --save
+npm install next-react-mapbox-gl-leaflet --save
 ```
 
 You will also need to manually install the following peer dependencies:
@@ -29,7 +29,7 @@ Please consult the [`mapbox-gl-leaflet` documentation][url-mapbox-gl-leaflet] fo
 ```javascript
 import React from "react";
 import { Map } from "react-leaflet";
-import MapboxGlLayer from "nextjs-react-mapbox-gl-leaflet";
+import MapboxGlLayer from "next-react-mapbox-gl-leaflet";
 
 const DemoComponent = () => {
   return (
