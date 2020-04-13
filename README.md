@@ -8,7 +8,7 @@ React wrapper of [`mapbox-gl-leaflet`][url-mapbox-gl-leaflet] for [`react-leafle
 
 | Package version | Dependency Versions                              | Demo             |
 |-----------------|--------------------------------------------------|------------------|
-| `1.0.0`         | `react-leaflet@2.x.x`, `mapbox-gl-leaflet@0.0.3` | [Link][url-demo] |
+| `1.0.1`         | `react-leaflet@2.x.x`, `mapbox-gl-leaflet@0.0.3` | [Link][url-demo] |
 
 ## Installation
 
