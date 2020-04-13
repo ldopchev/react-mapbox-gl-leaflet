@@ -1,5 +1,5 @@
 {
-  "name": "@mongodb-js/react-mapbox-gl-leaflet",
+  "name": "@nextjs/react-mapbox-gl-leaflet",
   "version": "1.0.0",
   "description": "React wrapper of mapbox-gl-leaflet for react-leaflet.",
   "author": "MongoDB",
